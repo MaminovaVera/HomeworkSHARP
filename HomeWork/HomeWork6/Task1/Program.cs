@@ -61,3 +61,4 @@ void CheckСonditions(int number)
 }
 int number = Prompt("Определите количество чисел для ввода ");
 CheckСonditions(number);
+
