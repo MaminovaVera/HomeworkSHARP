@@ -56,9 +56,8 @@ void CheckСonditions(int number)
     {
         System.Console.WriteLine("Число не может быть отрицательным или равным нулю");
     }
-
-
 }
+
 int number = Prompt("Определите количество чисел для ввода ");
 CheckСonditions(number);
 
