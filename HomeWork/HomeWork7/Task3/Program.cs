@@ -44,19 +44,21 @@ void PrintArray2(double[] matrix)
         };
         Console.WriteLine("");
     }
+    
 }
 double[] FindMineOfColumns(int[,] matrix)
 {
     double[] mineMatrix = new double[matrix.GetLength(1)];
-    int sum = 0;
+
     for (int i = 0; i < matrix.GetLength(1); i++)
     {
         for (int j = 0; j < matrix.GetLength(0); j++)
         {
             mineMatrix[i] += matrix[j, i];
         }
-        mineMatrix[i] = sum / matrix.GetLength(0);
+        mineMatrix[i] = mineMatrix[i] / matrix.GetLength(0);
     }
+    return mineMatrix;
 }
 int[,] array = FillArray(Prompt("Введите число строк > "), Prompt("Введите число столбцов > "));
 PrintArray(array);
