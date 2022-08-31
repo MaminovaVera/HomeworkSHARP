@@ -20,8 +20,6 @@ double[,] GenerateMassivOfRandomNumbers(int numLine, int numColumns)
     return massivrandom;      // Возвращаем результат
 }
 
-
-
 void PrintArray(double[,] matrix)              // Функция печати массива 
 {
     for (int i = 0; i < matrix.GetLength(0); i++)   // Строка
