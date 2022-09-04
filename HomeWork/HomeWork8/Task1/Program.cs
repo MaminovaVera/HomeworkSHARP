@@ -57,5 +57,5 @@ int[,] SortInDescendingOrder(int[,] array)
 int[,] matrix = FillArray(Prompt("Введите число строк > "), Prompt("Введите число столбцов > "));
 PrintArray(matrix);
 System.Console.WriteLine();
-int[,] result=SortInDescendingOrder(matrix);
+int[,] result = SortInDescendingOrder(matrix);
 PrintArray(result);
