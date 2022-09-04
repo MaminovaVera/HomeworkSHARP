@@ -72,5 +72,5 @@ PrintTwoDimensionalArray(matrix);
 System.Console.WriteLine();
 int[] sum = CalculateSumOfline(matrix);
 PrintOneDimensionalArray(sum);
-
-
+System.Console.WriteLine();
+System.Console.WriteLine($"Наименьшая сумма элементов в {FindMinIndex(sum)} строке ");
